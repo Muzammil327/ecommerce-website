@@ -94,7 +94,7 @@ export default function HomePage() {
       <HeroSlider />
       <Container>
         <Hero />
-        <div className="flex items-center justify-between my-5">
+        <div className="flex items-center justify-between my-5 md:flex-row flex-col">
         <h1 className="text-2xl font-semibold">Trending Product</h1>
         <ul className="flex items-center gap-4">
           <li><a href="/">Men Fashion</a></li>
