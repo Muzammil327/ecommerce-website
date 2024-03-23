@@ -7,11 +7,12 @@ export default function Footer() {
       <Container>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 py-12">
           <div className="first">
-            <img
+            {/* <img
               src="https://preview.colorlib.com/theme/ogani/img/logo.png"
               alt="logo"
               className="my-5"
-            />
+            /> */}
+            <span>Logo</span>
             <ul>
               <li className="text-slate-900 my-2 text-base">
                 <span className="font-semibold">Address:</span> 60-49 Road 11378

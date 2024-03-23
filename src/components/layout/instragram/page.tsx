@@ -14,7 +14,7 @@ export default function Instragram() {
             />
             <div className="instagram__text">
               <i className="fa fa-instagram"></i>
-              <a href="#">@ ashion_shop</a>
+              <a href="#">@ Logo</a>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function Instragram() {
             />
             <div className="instagram__text">
               <i className="fa fa-instagram"></i>
-              <a href="#">@ ashion_shop</a>
+              <a href="#">@ Logo</a>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function Instragram() {
             />
             <div className="instagram__text">
               <i className="fa fa-instagram"></i>
-              <a href="#">@ ashion_shop</a>
+              <a href="#">@ Logo</a>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function Instragram() {
             />
             <div className="instagram__text">
               <i className="fa fa-instagram"></i>
-              <a href="#">@ ashion_shop</a>
+              <a href="#">@ Logo</a>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Instragram() {
             />
             <div className="instagram__text">
               <i className="fa fa-instagram"></i>
-              <a href="#">@ ashion_shop</a>
+              <a href="#">@ Logo</a>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function Instragram() {
             />
             <div className="instagram__text">
               <i className="fa fa-instagram"></i>
-              <a href="#">@ ashion_shop</a>
+              <a href="#">@ Logo</a>
             </div>
           </div>
         </div>
