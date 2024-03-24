@@ -1,7 +1,7 @@
 "use client";
 import Container from "@/components/element/container/page";
 import ProductCard from "@/components/product/card/page";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { ProducTypes } from "@/components/product/card/type";
 import LeftCatgeory from "./leftCatgeory";
 
@@ -9,7 +9,7 @@ const products: ProducTypes[] = [
   {
     id: 0,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -19,7 +19,7 @@ const products: ProducTypes[] = [
   {
     id: 1,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -29,7 +29,7 @@ const products: ProducTypes[] = [
   {
     id: 2,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -39,7 +39,7 @@ const products: ProducTypes[] = [
   {
     id: 3,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -47,9 +47,9 @@ const products: ProducTypes[] = [
     cat: "Accessories",
   },
   {
-    id: 3,
+    id: 4,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -57,9 +57,9 @@ const products: ProducTypes[] = [
     cat: "Accessori",
   },
   {
-    id: 3,
+    id: 5,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -67,9 +67,9 @@ const products: ProducTypes[] = [
     cat: "Accessories",
   },
   {
-    id: 3,
+    id: 6,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -77,9 +77,9 @@ const products: ProducTypes[] = [
     cat: "Accessories",
   },
   {
-    id: 3,
+    id: 7,
     name: "Basic Tee",
-    href: "#",
+    href: "/details",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
@@ -93,7 +93,6 @@ export default function ProductPage() {
     <Container>
       <div className="grid md:grid-cols-10 gap-4 my-12">
         <div className="col-span-2">
-            
           <LeftCatgeory />
 
           {/* <div className="filter-widget mb-10">
@@ -105,7 +104,6 @@ export default function ProductPage() {
               </label>
             </div>
           </div> */}
-
         </div>
         <div className="col-span-8">
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">

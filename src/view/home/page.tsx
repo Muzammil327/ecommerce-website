@@ -95,12 +95,18 @@ export default function HomePage() {
       <Container>
         <Hero />
         <div className="flex items-center justify-between my-5 md:flex-row flex-col">
-        <h1 className="text-2xl font-semibold">Trending Product</h1>
-        <ul className="flex items-center gap-4">
-          <li><a href="/">Men Fashion</a></li>
-          <li><a href="/">Women Fashion</a></li>
-          <li><a href="/">Children Fashion</a></li>
-        </ul>
+          <h1 className="text-2xl font-semibold">Trending Product</h1>
+          <ul className="flex items-center gap-4">
+            <li>
+              <a href="/">Men Fashion</a>
+            </li>
+            <li>
+              <a href="/">Women Fashion</a>
+            </li>
+            <li>
+              <a href="/">Children Fashion</a>
+            </li>
+          </ul>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 my-12 mb-10">
           {products.map((data: ProducTypes) => (
@@ -115,14 +121,8 @@ export default function HomePage() {
           </button>
         </div>
         <h1 className="text-2xl font-semibold my-5">Top Rated Products</h1>
-        {/* <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 my-12 mb-40"> */}
-          {/* {products.splice(0, 4).map((data: ProducTypes) => (
-            <>
-              <ProductCard product={data} key={data.id} />
-            </>
-          ))} */}
-          <TopProductSlider />
-        {/* </div> */}
+
+        <TopProductSlider />
       </Container>
     </>
   );

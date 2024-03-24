@@ -10,11 +10,11 @@ import "swiper/css/effect-creative";
 // Import Swiper styles
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import 'swiper/css/effect-flip';
+import "swiper/css/effect-flip";
 
 // import required modules
 import { Autoplay } from "swiper/modules";
-import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
+import { EffectFlip, Pagination, Navigation } from "swiper/modules";
 
 function ProductDetails() {
   return (
@@ -24,25 +24,82 @@ function ProductDetails() {
           <div className="">
             <div className="img">
               <Swiper
-                   effect={'flip'}
-                   grabCursor={true}
-                   autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
-                   loop={true}
-                   modules={[EffectFlip, Pagination, Navigation,Autoplay]}
-                   className="mySwipe"
+                effect={"flip"}
+                grabCursor={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                loop={true}
+                modules={[EffectFlip, Pagination, Navigation, Autoplay]}
+                className="mySwipe"
               >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    alt=""
+                  />
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ProducTypes } from "./type";
 
 interface IProps {
@@ -8,22 +9,24 @@ export default function ProductCard({ product }: IProps) {
   return (
     <>
       <div className="card relative">
-        <div className="image relative">
-          <img
-            src={product.imageSrc}
-            alt={product.imageAlt}
-            title={product.imageAlt}
-            className="w-full block h-auto"
-          />
-          <div className="overlay"></div>
-          <div className="text-overlay absolute inset-0 flex flex-col items-center justify-end opacity-0 hover:opacity-100 transition-opacity duration-300 pb-4">
-            <span className="text-gray-600">{product.cat}</span>
-            <h3 className="text-black text-xl font-semibold py-[2px]">
-              {product.name}
-            </h3>
-            <span className="text-black">{product.price}</span>
+        <Link href={product.href}>
+          <div className="image relative">
+            <img
+              src={product.imageSrc}
+              alt={product.imageAlt}
+              title={product.imageAlt}
+              className="w-full block h-auto"
+            />
+            <div className="overlay"></div>
+            <div className="text-overlay absolute inset-0 flex flex-col items-center justify-end opacity-0 hover:opacity-100 transition-opacity duration-300 pb-4">
+              <span className="text-gray-600">{product.cat}</span>
+              <h3 className="text-black text-xl font-semibold py-[2px]">
+                {product.name}
+              </h3>
+              <span className="text-black">{product.price}</span>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="icon absolute flex justify-between top-2 left-2 items-center">
           <span className="bg-white md:h-10 h-8 md:w-10 w-8 rounded-full flex items-center justify-center">
             <svg
